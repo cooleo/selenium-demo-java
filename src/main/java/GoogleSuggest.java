@@ -12,7 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class GoogleSuggest {
     public static void main(String[] args) throws Exception {
         // The Firefox driver supports javascript
-        System.setProperty("webdriver.gecko.driver","selenium/linux/geckodriver");
+        System.setProperty("webdriver.gecko.driver","selenium/mac/geckodriver");
 
         WebDriver driver = new FirefoxDriver();
 
