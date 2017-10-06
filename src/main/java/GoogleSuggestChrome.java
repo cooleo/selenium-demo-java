@@ -15,7 +15,7 @@ public class GoogleSuggestChrome {
     public static void main(String[] args) throws Exception {
         // The Firefox driver supports javascript
 
-        System.setProperty("webdriver.chrome.driver","selenium/chromedriver");
+        System.setProperty("webdriver.chrome.driver","selenium/linux/chromedriver");
 
         WebDriver driver = new ChromeDriver();
 
